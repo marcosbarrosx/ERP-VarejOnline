@@ -18,7 +18,7 @@ namespace yamacorp.Dao.Varejonline
         public DaoVarejonline()
         {
             TokenApi = new TokenApiVarejonline();
-            TokenApi.access_token = "681031b8b3c66a821cce6fb77b36c383a06d6c71bfa832a6eae707000f1a6b1e";
+            TokenApi.access_token = "";
         }
 
         public TokenApiVarejonline GerarToken(AuthorizationCode authorization_code)
